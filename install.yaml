@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  elasticsearch:
+    image: yshua5631/products:0.0.1
+    container_name: products
+    restart: always
+    ports:
+      - 8080:8080
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          memory: 2024m
+        reservations:
+          memory: 200m
