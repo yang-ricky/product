@@ -1,0 +1,11 @@
+elasticsearch:
+  host: 124.221.74.86
+  port: 9200
+  username:
+  password:
+  schema: http
+  connectTimeOut: 10000
+  socketTimeOut: 30000
+  connectionRequestTimeOut: 5000
+  maxConnectNum: 2000
+  maxConnectPerRoute: 2000
